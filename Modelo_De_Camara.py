@@ -2,13 +2,12 @@
 /////////////////////////////////////////////
 //    PONTIFICIA UNIVERSIDAD JAVERIANA     //
 //                                         //
-//  Carlos Daniel Cadena Cahvarro          //
-//  Carlos Arturo Redondo Hurtado          //
+//  Julian Armando Quiroga                 //
+//                                         //
 //  Procesamiento de imagenes y vision     //
-//  TALLER #2                              //
+//  TALLER #5                              //
 /////////////////////////////////////////////
 '''
-
 
 import numpy as np
 
