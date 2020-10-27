@@ -8,6 +8,7 @@
 //  TALLER #2                              //
 /////////////////////////////////////////////
 '''
+#Parte de este codigo tuvo colaboración con scripts del Ingeniero Julian Armando Quiroga
 
 import numpy as np
 import cv2
