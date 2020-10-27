@@ -8,7 +8,7 @@
 //  TALLER #2                              //
 /////////////////////////////////////////////
 '''
-
+# Parte de este codigo se realizó con el apoyo de scripts del Ingeniero Julian Armando Quiroga 
 
 import cv2
 import os
@@ -44,6 +44,8 @@ if __name__ == '__main__':
 
     cube_2D = projective_camera_project(cube_3D, camera)
     print(cube_2D)
+    
+    #coordinates for the cube
     image_projective = 255 * np.ones(shape=[camera.height, camera.width, 3], dtype=np.uint8)
     cv2.line(image_projective, (cube_2D[0][0], cube_2D[0][1]), (cube_2D[1][0], cube_2D[1][1]), (255, 0, 0), 3)
     cv2.line(image_projective, (cube_2D[0][0], cube_2D[0][1]), (cube_2D[3][0], cube_2D[3][1]), (255, 0, 0), 3)
